@@ -74,7 +74,7 @@ VITE_STORAGE_SAS=<your-sas-token>
 
 ## 🌐 Logic Flow Architecture
 
-[User Uploads File]
+```[User Uploads File]
      ↓
 [React App Reads File]
      ↓
@@ -85,7 +85,10 @@ VITE_STORAGE_SAS=<your-sas-token>
 [Fetch All Files with listBlobsFlat()]
      ↓
 [Render Preview on Frontend]
-📊 Monitoring
+
+```
+
+## 📊 Monitoring
 
 Azure Application Insights is configured for tracking:
 
@@ -97,28 +100,27 @@ API interactions and health metrics
 
 
 ## 🧪 How to Run Locally
-Clone this repo:
+```Clone this repo:
 
-bash
+git clone https://github.com/jaideepsingh/cloud-native-media-uploader.git and
 
-git clone https://github.com/jaideepsingh/cloud-native-media-uploader.git
 cd cloud-native-media-uploader
+
 Install dependencies:
-
 bash
-
 npm install
+
 Create a .env file:
 
-env
-
+In .env
 VITE_STORAGE_ACCOUNT=cloudnativemedia
 VITE_STORAGE_CONTAINER=cloudnativeimage
 VITE_STORAGE_SAS=<your-sas-token>
-Run the app:
+
+Run the app:npm run dev
+```
 
 
-npm run dev
 🛡️ Security Notes
 No media files are publicly accessible unless you set container access to "Blob".
 

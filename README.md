@@ -37,7 +37,9 @@ The solution is deployed entirely in the cloud, with a **custom logic architectu
 
 ## 🗂️ Project Structure
 
-```bash
+## 🗂️ Project Structure
+
+bash
 📁 src/
  ┣ 📂 components/
  ┃ ┗ 📄 Loading.jsx        # Loader animation
@@ -50,7 +52,8 @@ The solution is deployed entirely in the cloud, with a **custom logic architectu
 📄 vite.config.js
 ⚙️ Technologies Used
 
-Technology	Purpose
+
+## Technology	Purpose
 React + Vite	Frontend Framework
 Azure Blob Storage	Media file hosting
 Azure SDK (@azure/storage-blob)	File upload + blob management
@@ -61,16 +64,15 @@ Storage Account: cloudnativemedia
 
 Container: cloudnativeimage
 
-Access secured via SAS Token used in .env file:
+## Access secured via SAS Token used in .env file:
 
-ini
-Copy code
-VITE_STORAGE_ACCOUNT=cloudsagar10
-VITE_STORAGE_CONTAINER=sagarimages
+VITE_STORAGE_ACCOUNT=cloudnativemedia
+VITE_STORAGE_CONTAINER=cloudnativeimage
 VITE_STORAGE_SAS=<your-sas-token>
-🌐 Logic Flow Architecture
-text
-Copy code
+
+
+## 🌐 Logic Flow Architecture
+
 [User Uploads File]
      ↓
 [React App Reads File]
@@ -83,6 +85,7 @@ Copy code
      ↓
 [Render Preview on Frontend]
 📊 Monitoring
+
 Azure Application Insights is configured for tracking:
 
 Request logs
@@ -91,7 +94,8 @@ Upload performance
 
 API interactions and health metrics
 
-🧪 How to Run Locally
+
+## 🧪 How to Run Locally
 Clone this repo:
 
 bash
@@ -107,8 +111,8 @@ Create a .env file:
 
 env
 
-VITE_STORAGE_ACCOUNT=cloudsagar10
-VITE_STORAGE_CONTAINER=sagarimages
+VITE_STORAGE_ACCOUNT=cloudnativemedia
+VITE_STORAGE_CONTAINER=cloudnativeimage
 VITE_STORAGE_SAS=<your-sas-token>
 Run the app:
 

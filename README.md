@@ -39,7 +39,7 @@ The solution is deployed entirely in the cloud, with a **custom logic architectu
 
 ## 🗂️ Project Structure
 
-bash
+'''bash
 📁 src/
  ┣ 📂 components/
  ┃ ┗ 📄 Loading.jsx        # Loader animation

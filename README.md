@@ -61,16 +61,17 @@ Azure Blob Storage	Media file hosting
 Azure SDK (@azure/storage-blob)	File upload + blob management
 Application Insights	Monitoring & Performance Logs
 GitHub	Version control + CI/CD ready
-🔐 Azure Setup
-Storage Account: cloudnativemedia
 
-Container: cloudnativeimage
+## 🔐 Azure Setup
+Storage Account: cloudsagar10
+
+Container: sagarimages
 
 ## Access secured via SAS Token used in .env file:
 
-VITE_STORAGE_ACCOUNT=cloudnativemedia
-VITE_STORAGE_CONTAINER=cloudnativeimage
-VITE_STORAGE_SAS=<your-sas-token>
+VITE_STORAGE_ACCOUNT=cloudsagar10
+VITE_STORAGE_CONTAINER=sagarimages
+VITE_STORAGE_SAS=<my-sas-token>
 
 
 ## 🌐 Logic Flow Architecture
@@ -129,9 +130,9 @@ SAS tokens must be rotated regularly.
 
 Do not commit your .env file to GitHub.
 
-📦 CI/CD (Planned)
+📦 CI/CD Pipelines
 This project will later integrate:
 
-GitHub Actions for testing + deployment
+GitHub Actions for testing + deployment using .yml for continous delivery
 
 Blob-triggered notifications via Event Grid (optional)

@@ -1,0 +1,48 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.3.0",
+    "@azure/storage-blob": "^12.14.0",
+    "axios": "^1.4.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-loading-icons": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
+  },
+  "description": "![Screenshot 2023-08-05 172736](https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-/assets/57180726/38761210-2d3f-4f48-b54f-d923c43b6773)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-/issues"
+  },
+  "homepage": "https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-#readme"
+}

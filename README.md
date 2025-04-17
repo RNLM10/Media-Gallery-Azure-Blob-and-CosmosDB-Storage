@@ -75,7 +75,7 @@ VITE_STORAGE_SAS=<my-sas-token>
 
 
 ## 🌐 Logic Flow Architecture
-![Screenshot 2025-04-16 172736]([https://github.com/RNLM10/Media-Gallery-Azure-Blob-and-CosmosDB-Storage/blob/main/CloudNative_AzureBlobStorage_and_CosmosDB/Frontend.png](https://github.com/RNLM10/Media-Gallery-Azure-Blob-and-CosmosDB-Storage/blob/main/CloudNative_AzureBlobStorage_and_CosmosDB/SAGAR_Logic_Architecture.png?raw=true))
+![Screenshot 2025-04-16 172736](https://github.com/RNLM10/Media-Gallery-Azure-Blob-and-CosmosDB-Storage/blob/main/CloudNative_AzureBlobStorage_and_CosmosDB/SAGAR_Logic_Architecture.png)
 ```[User Uploads File]
      ↓
 [React App Reads File]

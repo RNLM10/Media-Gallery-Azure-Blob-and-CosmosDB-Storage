@@ -12,7 +12,7 @@ Azure Blob Storage is a Microsoft Azure cloud-based object storage solution. It 
 ---
 
 ## 🚀 Project Overview
-(https://github.com/RNLM10/Media-Gallery-Azure-Blob-and-CosmosDB-Storage/blob/main/CloudNative_AzureBlobStorage_and_CosmosDB/Frontend.png)
+![Screenshot 2025-04-16 172736](https://github.com/RNLM10/Media-Gallery-Azure-Blob-and-CosmosDB-Storage/blob/main/CloudNative_AzureBlobStorage_and_CosmosDB/Frontend.png)
 
 This project is a **cloud-native web application** that allows users to upload and preview **images, videos, and audio files** in real-time. The app is built using:
 
